@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Employee Management System</h1>
+</header>
+<div class="container">
+    <div class="form-container">
+        <h2>Add Employee</h2>
+        <form id="employeeForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" required>
+            <button type="submit"><i class="fas fa-plus"></i> Add Employee</button>
+        </form>
+    </div>
+    <div class="list-container">
+        <h2>Employee List</h2>
+        <ul id="employeeList"></ul>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 Employee Management System</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
