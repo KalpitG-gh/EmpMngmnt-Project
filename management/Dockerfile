@@ -14,7 +14,7 @@ RUN mvn clean package -DskipTests
 
 # Use the official OpenJDK image to run the application
 # This will use OpenJDK 17
-FROM openjdk:17-jre
+FROM openjdk:17-jre-buster
 
 # Set the working directory
 WORKDIR /app
